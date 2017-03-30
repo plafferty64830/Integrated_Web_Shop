@@ -44,7 +44,8 @@
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.8";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, 'script', 'facebook-jssdk'));
+</script>
 
 
 <div id="wrapper">
@@ -58,7 +59,8 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="ShoppingPortal.html"><img src="images/logo.PNG" alt="Company logo" style="width:225px;height:35px; padding-bottom: 2px;"></a>
+            <a class="navbar-brand" href="ShoppingPortal.html"><img src="images/logo.PNG" alt="Company logo"
+                                                                    style="width:225px;height:35px; padding-bottom: 2px;"></a>
         </div>
         <!-- /.navbar-header -->
 
@@ -95,7 +97,6 @@
                             </div>
                         </a>
                     </li>
-
 
 
                 </ul>
@@ -135,7 +136,6 @@
                             </div>
                         </a>
                     </li>
-
 
 
                 </ul>
@@ -240,11 +240,12 @@
                         <!--copied code starts here-->
                     </li>
                     <li>
-                        <a href="DronePage.html" ><i class="fa fa-fighter-jet" ></i> Drones </a>
+                        <a href="DronePage.html"><i class="fa fa-fighter-jet"></i> Drones </a>
                     </li>
 
                     <li>
-                        <a href="#" style= "color: #2D6FFF"><i class="fa fa-plus-square-o"></i> Accessories <span class="fa arrow"></span></a>
+                        <a href="#" style="color: #2D6FFF"><i class="fa fa-plus-square-o"></i> Accessories <span
+                                class="fa arrow"></span></a>
                         <ul class="nav nav-second-level collapse">
                             <li>
                                 <a href="#">Drone 1 Accessories </a>
@@ -259,7 +260,8 @@
                     </li>
 
                     <li>
-                        <a href="" style= "color: #2D6FFF"><span class="glyphicon glyphicon-camera"></span> Cameras <span class="fa arrow"></span></a>
+                        <a href="" style="color: #2D6FFF"><span class="glyphicon glyphicon-camera"></span> Cameras <span
+                                class="fa arrow"></span></a>
                         <ul class="nav nav-second-level collapse">
                             <li>
                                 <a href="#">Camera 1 </a>
@@ -273,7 +275,8 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="" style= "color: #2D6FFF"><span class="fa fa-video-camera"></span> Gopro add-ons<span class="fa arrow"></span></a>
+                        <a href="" style="color: #2D6FFF"><span class="fa fa-video-camera"></span> Gopro add-ons<span
+                                class="fa arrow"></span></a>
                         <ul class="nav nav-second-level collapse">
                             <li>
                                 <a href="#">Wi-fi Distance Booster</a>
@@ -287,7 +290,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="loginHome.html" style= "color: #2D6FFF"><i class="fa fa-sign-out fa-fw"></i> Logout </a>
+                        <a href="loginHome.html" style="color: #2D6FFF"><i class="fa fa-sign-out fa-fw"></i> Logout </a>
                     </li>
 
 
@@ -300,7 +303,6 @@
 
 
     </li>
-
 
 
     </ul>
@@ -318,131 +320,127 @@
                 <h1 class="page-header"> Drones </h1>
 
                 <!--.........All product code for drones........-->
-                <nav>
-                    <ul class="sidenav">
-                        <li><a href="#home"><button class="nav-link-active" type="button">Home</button></a></li>
-                        <li><a href="#basket"><button class="nav-link" type="button">Basket</button></a></li>
-                        <form class="form-horizontal">
-                            <div class="form-group">
-                                <label for="inputEmail" class="col-sm-2 control-label">Email</label>
-                                <div class="col-sm-10">
-                                    <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="inputPassword" class="col-sm-2 control-label">Password</label>
-                                <div class="col-sm-10">
-                                    <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-sm-offset-2 col-sm-10">
-                                    <div class="checkbox">
-                                        <label>
-                                            <input type="checkbox"> Remember me
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="submit">
-                                    <button type="button" class="btn btn-info">Sign In</button>
-                                </div>
-                            </div>
-                        </form>
-                    </ul>
-                </nav>
-                <div class="frame-product">
-                    <div class="product">
-                        <div class="product-img">
-                            <img id="product-img1" onclick="changeImgSize1()" src="{{image.name}}">
-                        </div>
-                        <div class="product-Details" onclick="displayDescription1()">
-                            <p class="product-Title"><H2>{{title}}</H2></p>
-                            <p class="product-price"><b>Price: &pound; {{unitPrice}}</b></p>
-                            <ul>
-                                <li>{{shortDescription}}
-                                    <div Id="Threedots-description1">
-                                        <b>&hellip;</b>
-                                    </div>
-                                </li>
-                                <div id="product-description1">
-                                    <li> {{longDescription}}</li>
-                                </div>
-                            </ul>
-                            <button class="product-buy" type="button">Buy</button>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="product" >
-                        <div class="product-img">
-                            <img id="product-img2" onclick="changeImgSize2()" src="store/RcDroneWithHD.jpg">
-                        </div>
-                        <div class="product-Details" onclick="displayDescription2()" >
-                            <p class="product-Title"><H2>RC drone with HD fpv camera remote control airplane support headless one key home
-                            3D flips quad copter helicopter hover drone remote controller with LCD display screen
-                            valentine's day gifts for him lamaston X5SW-1 (Black)</H2></p>
+
+                    <div class="box">
+
+                        <div class="product-Details" onclick="displayDescription2()">
+                            <p class="product-Title">
+                            <H2>RC drone with HD fpv camera remote control </H2></p>
                             <p class="product-price"><b>Price: &pound;49.99</b></p>
 
                             <ul>
-                                <li>Equipped with HD Wi-Fi fpv camera rc drone:real-time FPV(first person view) image transmission to your phone from the sky
-                                    <div Id="Threedots-description2">
-                                        <b>&hellip;</b>
-                                    </div>
+                                <li>
+                                    Easy to learn fly:RTF(ready to fly) package rc helicopter and support one key return ,360
+                                    degree flips & headless model makes the remote control airplane practical without worries
                                 </li>
-                                <div Id="product-description2">
-                                    <li>Easy to learn fly:RTF(ready to fly) package rc helicopter and support one key return ,360 degree flips &
-                                        headless model makes the remote control airplane practical without worries</li>
-                                    <li>Free extra battery:spare propeller blade, FPV Phone Holder and Screwdriver all included to quadcopter kit.
-                                        Enjoy the fun and easy to repair</li>
-                                    <li>Highly Durable:crash resistance and stronger stability which is perfect as entry level remote control drone</li>
-                                    <li>Scan the QR Code on the manual with your phone to download the APP, quad support connection via iphone, android & ipad. </li>  </div>
-                            </ul>
-                            <button class="product-buy" type="button">Buy</button>
-                        </div>
-                    </div>
-                    <br>
-                    <div class="product" >
-                        <div class="product-img">
-                            <img id="product-img3" onclick="changeImgSize3()" src="store/DJI_Hardshell.jpg">
-                        </div>
-                        <div class="product-Details" onclick="displayDescription3()">
-                            <p class="product-Title"><H2>DJI Phantom 3 Standard Drone - White</H2></p>
-                            <p class="product-price"><b>Price: &pound;449.00</b></p>
-                            <ul>
-                                <li>Easy to Fly: An intelligent flight system automatically keeps your Phantom 3 Standard in the air and under your control.
-                                    <div Id="Threedots-description3">
-                                        <b>&hellip;</b>
-                                    </div>
+
+                                <li>
+                                    Free extra battery:spare propeller blade, FPV Phone Holder and Screwdriver all included to
+                                    quadcopter kit.
+                                    Enjoy the fun and easy to repair
                                 </li>
-                                <div Id="product-description3">
-                                    <li>Amazing Images: Take stunning 2.7K HD videos and 12 Megapixel photos with the integrated aerial camera.</li>
-                                    <li>Stable Footage: DJI's advanced gimbal stabilization technology gives you movie-quality results no matter how you fly.</li>
-                                    <li>Enjoy the View: A live video feed gives you a 720p HD real-time view of what your camera sees right on your mobile device.</li>
-                                    <li>Peace of Mind: Fly up to 25 minutes on a single charge, and the Intelligent Flight Battery will automatically remind you when power is running low.</li> </div>
+
+                                <li>
+                                    Highly Durable:crash resistance and stronger stability which is perfect as entry level
+                                    remote control drone
+                                </li>
+
+                                <li>
+                                    Scan the QR Code on the manual with your phone to download the APP, quad support connection
+                                    via iphone, android & ipad.
+                                </li>
+
                             </ul>
+
                             <button class="product-buy" type="button">Buy</button>
+
                         </div>
+
                     </div>
+
+                <div class="box">
+
+                    <div class="product-Details" onclick="displayDescription2()">
+                        <p class="product-Title">
+                        <H2>DJI Phantom 3 Standard Drone - White </H2></p>
+                        <p class="product-price"><b>Price: &pound;449.00</b></p>
+
+                        <ul>
+                            <li>
+                                Amazing Images: Take stunning 2.7K HD videos and 12 Megapixel photos with the
+                                integrated aerial camera.
+                            </li>
+
+                            <li>
+                                Stable Footage: DJI's advanced gimbal stabilization technology gives you
+                                movie-quality results no matter how you fly.
+                            </li>
+
+                            <li>
+                                Enjoy the View: A live video feed gives you a 720p HD real-time view of what your
+                                camera sees right on your mobile device.
+                            </li>
+
+                            <li>
+                                Peace of Mind: Fly up to 25 minutes on a single charge, and the Intelligent Flight
+                                Battery will automatically remind you when power is running low.
+                            </li>
+
+                        </ul>
+
+                        <button class="product-buy" type="button">Buy</button>
+
+                    </div>
+
                 </div>
 
-                <!--.........Product code for drones complete.........-->
+                <div class="box">
+
+                    <div class="product-Details" onclick="displayDescription2()">
+                        <p class="product-Title">
+                        <H2>DJI Phantom 3 Standard Drone - White </H2></p>
+                        <p class="product-price"><b>Price: &pound;449.00</b></p>
+
+                        <ul>
+                            <li>
+                                Amazing Images: Take stunning 2.7K HD videos and 12 Megapixel photos with the
+                                integrated aerial camera.
+                            </li>
+
+                            <li>
+                                Stable Footage: DJI's advanced gimbal stabilization technology gives you
+                                movie-quality results no matter how you fly.
+                            </li>
+
+                            <li>
+                                Enjoy the View: A live video feed gives you a 720p HD real-time view of what your
+                                camera sees right on your mobile device.
+                            </li>
+
+                            <li>
+                                Peace of Mind: Fly up to 25 minutes on a single charge, and the Intelligent Flight
+                                Battery will automatically remind you when power is running low.
+                            </li>
+
+                        </ul>
+
+                        <button class="product-buy" type="button">Buy</button>
+
+                    </div>
+
+                </div>
+
+            <div class="fb-like" data-href="https://www.facebook.com/Dronessories-912922868847717/" data-width="100px"
+                 data-layout="standard" data-action="like"
+                 data-size="large" data-show-faces="true" data-share="true"></div>
 
 
-
-
-                    <div class="fb-like" data-href="https://www.facebook.com/Dronessories-912922868847717/" data-width="100px" data-layout="standard" data-action="like"
-                         data-size="large" data-show-faces="true" data-share="true"></div>
-
-
-
-
-            </div>
-            <!-- /.col-lg-12 -->
         </div>
-        <!-- /.row -->
+        <!-- /.col-lg-12 -->
     </div>
-    <!-- /.container-fluid -->
+    <!-- /.row -->
+</div>
+<!-- /.container-fluid -->
 </div>
 <!-- /#page-wrapper -->
 

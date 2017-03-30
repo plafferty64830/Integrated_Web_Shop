@@ -1,63 +1,8 @@
 body {
 background-color: #F5F5F5;
 }
-ul.sidenav {
-    list-style-type: none;
-    border-radius: 25px;
-    margin: 0;
-    padding: 0;
-    width: 25%;
-    background-color: #555;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-}
 
-ul.sidenav li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-
-ul.sidenav li a.active {
-    background-color: #008CBA;
-    color: white;
-}
-
-ul.sidenav li a:hover:not(.active) {
-    background-color: #555;
-    color: white;
-}
-.nav-link {
-    background-color: #008CBA;
-    border-radius: 25px;
-    border: none;
-    color: white;
-    padding: 10px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: medium;
-    margin: 40px -40px;
-    cursor: pointer;
-    float: right;
-}
-
-.nav-link-active{
-    background-color: green;
-    border-radius: 25px;
-    border: none;
-    color: white;
-    padding: 10px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: medium;
-    margin: 40px 40px;
-    cursor: pointer;
-    float: right;
-}
+/*
 
 h1 {
     text-align: center;
@@ -68,18 +13,7 @@ h1 {
     color:  #008CBA;
     margin: 0px 0px;
 }
-form {
-  position:relative;
-    border-radius: 25px;
-    border: none;
-    color: black;
-    padding: 8px 15px;
-    text-align: right;
-    text-decoration: none;
-    font-size: small;
-    margin: 4px 2px;
-    cursor: pointer;
-}
+
 
 .btn{
     background-color: #008CBA;
@@ -99,9 +33,13 @@ text-align: left;
 line-height: 1.8;
 margin-left: 10px;
 }
+
 #Threedots-description2{display: inline-block;  }
+
 #Threedots-description1{display: inline-block; }
+
 #Threedots-description3{display: inline-block; }
+
 #product-description2{
 display: none;
 text-align: left;
@@ -175,41 +113,9 @@ img{
     text-align: left;
 }
 
-.product-title{
-    font-family: "Times New Roman", Times, serif;
-    font-size: 14px;
-    text-align: center;
-}
-h2{
-    font-family: "Times New Roman", Times, serif;
-    font-size: 16px;
-    text-align: center;
-}
-.product-price{
-    font-family: "Times New Roman", Times, serif;
-     font-size: 18px;
-     text-align: right;
-}
 
-p{
-    font-family: "Times New Roman", Times, serif;
-    word-wrap: normal;
-    padding: 5px 5px;
-}
 
-.product-buy{
-    background-color: green;
-    border-radius: 25px;
-    border: none;
-    color: white;
-    padding: 8px 15px;
-    text-align: right;
-    text-decoration: none;
-    font-size: medium;
-    margin: 4px 2px;
-    cursor: pointer;
-    float: right;
-}
+
 
 
 @media screen and (max-width: 3050px){
@@ -225,20 +131,61 @@ p{
    .product {margin-left:0;}
 }
 
+
+  .product-title{
+      font-family: "Times New Roman", Times, serif;
+      font-size: 14px;
+      text-align: center;
+  }
+  h2{
+      font-family: "Times New Roman", Times, serif;
+      font-size: 16px;
+      text-align: center;
+  }
+
+
+  p{
+      font-family: "Times New Roman", Times, serif;
+      word-wrap: normal;
+      padding: 5px 5px;
+  }
+
 @media screen and (max-width: 400px){
     ul.sidenav li a {
         text-align: center;
         float: none;
     }
+*/
+.product-price{
+    font-family: "Times New Roman", Times, serif;
+     font-size: 18px;
 
-    .frame-product {width:75%;
-    height:auto;}
-
-    .product{
-    width:75%;
-    }
-    img{
-    width: 100%;
-    float: none;
-    }
 }
+
+
+
+.box{
+    background-color: lightgrey;
+    width: 850px;
+    border: 25px solid #FFF9AA;
+    padding: 25px;
+    margin: 25px;
+
+}
+
+
+  .product-buy{
+      background-color: green;
+      border-radius: 25px;
+      border: none;
+      color: white;
+      padding: 8px 15px;
+      text-align: right;
+      text-decoration: none;
+      font-size: medium;
+      margin: 4px 2px;
+      cursor: pointer;
+      float: right;
+  }
+
+
