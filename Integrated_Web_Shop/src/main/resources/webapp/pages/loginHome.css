@@ -38,7 +38,7 @@ h1 {
   padding-bottom: 50px;
   padding: 1em;
   overflow: hidden;
-  background-image: url("images/programming.jpg");
+  background-image: url("/programming.jpg");
 
 }
 .form-signin .form-signin-heading,

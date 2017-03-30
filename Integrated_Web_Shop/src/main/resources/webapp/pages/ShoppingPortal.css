@@ -4,8 +4,13 @@
   height: 800px;
   float: right;
 
+}
 
-
-
+.box{
+    background-color: #FFF9CC;
+    width: 550px;
+    padding: 25px;
+    margin: 25px;
+    float:left;
 
 }

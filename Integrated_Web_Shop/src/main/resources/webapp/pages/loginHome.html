@@ -19,7 +19,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <a class="navbar-brand">
-            <img src="images/logo.png" height="40" width="180">
+            <img src="/logo.PNG" height="40" width="180">
           </a>
 
           <div class="collapse navbar-collapse" id="navbarsExampleDefault">
@@ -31,21 +31,30 @@
           </div>
         </nav>
 
+
+
   <div class="container-signin">
     <div class="background">
-      <form class="form-signin">
+      <form class="form-signin" action="ShoppingPortal.html">
         <h3 class="form-signin-heading" style="color:white">Please Sign in</h3>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+
+        <div class="inputcontent">
+          <input type="text" id="email" class="form-control" placeholder="Email" required>
+        </div>
+
+        <div class="inputcontent">
+          <input type="password" id="password" class="form-control" placeholder="Password" required>
+        </div>
+
+
         <div class="checkbox">
           <label>
             <input type="checkbox" value="remember-me"> Remember me
           </label>
         </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit" style="background-color:#0a3245; border:1px solid #0a3245;">Sign in</button>
-        <a href="ShoppingPortal.html" class="btn btn-lg btn-primary btn-block" type="submit" style="background-color: #0A3245; border: 1px solid #0A3245;"> Test Pages </a>
+
+        <button class="btn btn-lg btn-primary btn-block" type="submit" style="background-color:#0a3245; border:1px solid #0a3245;" onclick="if (document.getElementById('email').value == 'admin@admin.com' && document.getElementById('password').value == 'pass') alert('Correct Password!'); else alert('Wrong Password!');" >Sign in</button>
+
       </form>
     </div> <!--/background-->
     </div> <!-- /container -->
